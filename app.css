@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+body{
+    
+    min-height: 100vh;
+    background-color: #5CA4EA;
+    /* background-image: url("mountain.jpg");
+    background-image: 
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    
+    font-family: 'Lato', sans-serif;
+}
+
+#content{
+
+    text-align: center;
+
+    margin: auto;
+    margin-top: 200px;
+   
+    width: 650px;
+    padding: 10px;
+
+    outline: solid 2px white;
+    border-radius: 12px;
+      
+}
+
+#countDown{
+    color: white;
+    font-size: 70px;
+}
+
+#loadBar{
+    background-color: rgb(241, 234, 234);
+    height: 20px;
+    width: 100%;
+    border-radius: 20px; 
+    
+    
+}
+
+#behindBar{
+    background-color: #4F95DA;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+
+button{
+    height: 60px;
+    width: 180px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 5px 2px;
+    color: white;
+    cursor: pointer;
+    background: #5CA4EA;
+    opacity: 1;
+    border: 1px solid #91C9FF;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    transition: .5s ease-in-out;
+    
+    
+
+}
+
+
+button:hover{
+    /* background: #4F95DA; */
+    background: #4F95DA;
+    
+    
+}
+
+
+#buttonStart:hover{
+    background: #4F95DA;
+    
+   
+}
+
+
+
