@@ -106,3 +106,6 @@ buttonFocus.addEventListener('click', startTimer);
 buttonLong.addEventListener('click', startTimer);
 buttonShort.addEventListener('click', startTimer);
 buttonStart.addEventListener('click', startTimer);
+
+
+//Test
